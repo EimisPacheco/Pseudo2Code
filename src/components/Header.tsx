@@ -4,6 +4,22 @@ import { Code2, Zap } from 'lucide-react';
 const Header: React.FC = () => {
   return (
     <header className="relative z-20 py-8">
+      {/* Bolt Badge - Top Right */}
+      <div className="absolute top-4 right-4 z-30">
+        <a
+          href="https://bolt.new"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="block transform hover:scale-105 transition-transform duration-200"
+        >
+          <img
+            src="/black_circle_360x360.png"
+            alt="Powered by Bolt"
+            className="w-16 h-16 opacity-80 hover:opacity-100 transition-opacity duration-200"
+          />
+        </a>
+      </div>
+      
       <div className="container mx-auto px-4 text-center">
         <div className="flex items-center justify-center gap-3 mb-4">
           <div className="relative">
